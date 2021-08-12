@@ -1,0 +1,368 @@
+@charset "utf-8";
+
+/* 내용관리 */
+/* #ctt {margin:10px 0;padding:20px;background:#fff}
+.ctt_admin {text-align:right}
+#ctt header h1 {position:absolute;font-size:0;line-height:0;overflow:hidden}
+#ctt_con {padding:10px 0;line-height:1.6em}
+#ctt_con img{max-width:100%;height:auto}
+.ctt_img {text-align:center} */
+
+
+.nonee{
+    display:none;
+}
+
+
+.staking_top{
+    width: 100%;
+    background-color: #f8f8f8;
+    position: relative;
+    margin: 20px 0 60px 0;
+    padding:0 0 30px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.tt_name{
+    text-align: center;
+    width: 100%;
+    padding: 10px 0 0 0;
+    font-size: 1.7em;
+    font-weight: 700;
+    color: #fc8129;
+}
+
+
+.tt_name1{
+    text-align: center;
+    width: 100%;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #fc8129;
+}
+
+.staking_cont{
+    width: 100%;
+    height: 80%;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: rgb(77, 77, 77);
+}
+
+.staking_md{
+    width: 100%;
+    text-align: center;
+    background-color: #f8f8f8;
+    color: #fc8129;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 0 0 40px 0;
+    font-size: 1.1em;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+    padding: 10px;
+}
+
+.buy_popup{
+    width: 100%;
+    background-color: #f8f8f8;
+    margin: 60px 0;
+    padding: 50px 0;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+}
+
+.buy_popup_cont{
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.txidAdress{
+    padding: 5px;
+    background-color: #fc8129;
+    color: #fff;
+    width: 60%;
+    margin: 8px auto;
+    border-radius: 5px;
+}
+
+.btn_copy{
+    border: 0;
+    padding: 3px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.txid_text{
+    width: 60%;
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.bt_wrap{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+
+.bt_wrap > button{
+    background: #ef6603;
+    display: inline-block;
+    padding: 8px 35px 10px 35px;
+    border-radius: 50px;
+    color: #fff;
+    -webkit-transition: none;
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border: 0;
+}
+
+.bt_wrap > button:hover{
+    background: #ff8a37;
+}
+
+
+.my_stk_wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont_stk_wrap{
+    width: 48%;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.cont_stk_wrap > p:nth-child(1){
+    color: #ff8a37;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.cont_stk_wrap > p{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.my_stk_cont{
+    width: 100%;
+    background-color: #fff;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+    color: rgb(97, 97, 97);
+}
+
+.stk_cont{
+    margin: 20px 0;
+    font-size: 1.08rem;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stk_cont > span{
+    width: 50%;
+}
+
+.cont_right{
+    text-align: right !important;
+}
+
+.cont_left{
+    text-align: left !important;
+}
+
+
+.stk_table{
+    width: 100%;
+    font-size: 1rem;
+}
+
+
+
+.stk_table  > table{
+    width: 1100px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.stk_table  > table > thead{
+    background-color: #f8f8f8;
+    text-align: center;
+    color: #5c5c5c;
+}
+
+.stk_table  > table > tbody{
+    background-color: #fff;
+    color: #fd9042;
+    text-align: center;
+}
+
+.stk_table  > table > tbody  > tr{
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+.top_cont, .mid_cont, .bt_cont{
+    width: 70%;
+    background-color: #f8f8f8;
+    padding: 10px 0 30px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+    margin: 0 auto;
+}
+
+.top_cont, .mid_cont, .bt_cont > p{
+    font-weight: 700;
+    text-align: center;
+}
+
+.top_cont_text, .mid_cont_text, .bt_cont_text{
+    width: 100%;
+    background-color: #fff;
+}
+
+.top_cont_text > p{
+    width: 100%;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.mid_cont_text > p{
+    width: 100%;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.content{
+    padding: 5px 40px;
+}
+
+.content > .iplb{
+    width: 100%;
+    position: relative;
+}
+
+.content > .iplb > input{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid  rgb(182, 182, 182);
+    padding-left: 5px;
+}
+
+.content > .iplb > label{
+    position: absolute;
+    right: 0;
+    background-color: #ff8a37;
+    height: 100%;
+    width: 10%;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    border: 1px 1px 1px 0 solid  rgb(131, 131, 131);
+}
+
+.apip{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(182, 182, 182);
+    padding-left: 5px;
+}
+
+.ap_ok{
+    margin: 10px 0 0 0;
+    width: 100%;
+    text-align: center;
+}
+
+.ap_ok > input{
+    margin-bottom: 7px;
+    margin-right: 5px;
+}
+
+.ok_btn{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin: 20px 0;
+}
+
+.ok_btn > input{
+    border: 0;
+    background-color: #ff8a37;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media(max-width:1023px){
+    .stk_table{
+        width: 800px;
+        font-size: 1rem;
+        overflow-x: scroll;
+        margin: 0 auto;
+    }
+    
+    .top_cont, .mid_cont, .bt_cont{
+        width: 80%;
+        background-color: #f8f8f8;
+        padding: 10px 0 30px 0;
+        border-radius: 5px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:500px){
+    .my_stk_wrap{
+        width: 100%;
+        display: block;
+    }
+    
+    .cont_stk_wrap{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #f8f8f8;
+        border-radius: 5px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+    }
+
+    .top_cont, .mid_cont, .bt_cont{
+        width: 100%;
+        background-color: #f8f8f8;
+        padding: 10px 0 30px 0;
+        border-radius: 5px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+        margin: 0 auto;
+    }
+
+    .stk_table{
+        width: 430px;
+        font-size: 1rem;
+        overflow-x: scroll;
+        margin: 0 auto;
+    }
+
+    .sup1{
+        top:0 !important;
+    }
+}
